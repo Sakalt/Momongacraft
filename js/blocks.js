@@ -243,6 +243,16 @@ BLOCK.SPONGE = {
 	texture: function( world, lightmap, lit, x, y, z, dir ) { return [ 0/16, 3/16, 1/16, 4/16 ]; }
 };
 
+BLOCK.MOLGA = {
+	id: 19,
+	spawnable: false,
+	transparent: false,
+	selflit: false,
+	gravity: true,
+	fluid: false,
+	texture: function( world, lightmap, lit, x, y, z, dir ) { return [ 9/16, 4/16, 3/16, 2/16 ]; }
+};
+
 // fromId( id )
 //
 // Returns a block structure for the given id.
